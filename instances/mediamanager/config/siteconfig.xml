@@ -1,4 +1,4 @@
 <?xml version="1.0" ?>
 <GenRoBag>
-	<wsgi mainpackage="docu"/>
+	<wsgi mainpackage="erpy_base"/>
 </GenRoBag>
