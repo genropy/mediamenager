@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<GenRoBag>
+	<db dbname="mediamanager"/>
+	<packages>
+		<gnrcore_sys pkgcode="gnrcore:sys"/>
+		<gnrcore_adm pkgcode="gnrcore:adm"/>
+		<gnrcore_docu pkgcode="gnrcore:docu"/>
+		<gnrcore_email pkgcode="gnrcore:email"/>
+		<gnr_it_glbl pkgcode="gnr_it:glbl"/>
+		<erpy_erpy_base pkgcode="erpy:erpy_base"/>
+		<erpy_erpy_coge pkgcode="erpy:erpy_coge"/>
+		<erpy_erpy_task pkgcode="erpy:erpy_task"/>
+	</packages>
+	<authentication pkg="gnrcore:sys">
+		<py_auth defaultTags="user" method="authenticate" pkg="adm"/>
+	</authentication>
+</GenRoBag>
